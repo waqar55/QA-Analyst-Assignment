@@ -8,6 +8,7 @@ Reporting: Mochawesom Reporting <br />
 
 
 # Prerequisites
+Amazon Account's Credentials(configure at env in Cypress.json.config file)
 Node.js installed
 Microsoft’s Visual Studio Code
 
@@ -17,7 +18,7 @@ Microsoft’s Visual Studio Code
 `npm install`
 
 ## Run test cases in CLI
-`npx cypress run`
+`npx cypress run --browser chrome`
 ​
 ## Run test cases in GUI
 `npx cypress open`

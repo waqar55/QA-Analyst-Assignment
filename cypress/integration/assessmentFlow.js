@@ -28,7 +28,7 @@ it('Login', function()
    
     cy.visit(Cypress.env('url')) //Hit URL
     SigninPg.signinBtn().click({force:true}) //Click Sign In button
-    SigninPg.emailField().type(Cypress.env('Email')) //Add Email
+    SigninPg.emailField().type(Cypress.env('Usernane')) //Add UserName
     SigninPg.continueBtn().click() //Click Continue to Password
     SigninPg.passwordField().type(Cypress.env('Password'),{log:false}) //Add Password
     SigninPg.SubmitBtn().click() //Submit Sign In

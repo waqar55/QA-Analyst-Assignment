@@ -13,7 +13,7 @@ module.exports = defineConfig({
   defaultCommandTimeout: 60000,
   env:{
     url: 'https://www.amazon.com/',
-    Email: 'waqarxx@gmail.com',
-    Password: 'CureMD@123'
+    Usernane: '',  //please enter username here
+    Password: ''       //please enter password here
   }
 })
