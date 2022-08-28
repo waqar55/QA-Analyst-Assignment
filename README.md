@@ -8,9 +8,9 @@ Reporting: Mochawesom Reporting <br />
 
 
 # Prerequisites
-Amazon Account's Credentials(configure at env in Cypress.json.config file)
-Node.js installed
-Microsoft’s Visual Studio Code
+Amazon Account's Credentials(configure at env in Cypress.json.config file) <br />
+Node.js installed <br />
+Microsoft’s Visual Studio Code <br />
 
 # Setup
 
