@@ -10,13 +10,8 @@ class SearchProductPage
    }
    buyBoxProductsBtn()
    {
-      return cy.get('.s-main-slot .sg-col-inner .s-list-col-right .sg-col-inner .sg-row .a-price-whole')
-   }
-   selProduct()
-   {
-     return cy.get('.s-main-slot .sg-col-inner .a-size-medium')
+      return cy.get('.a-price')
    }
 }
-
 export default SearchProductPage;
 

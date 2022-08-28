@@ -3,7 +3,6 @@ class SigninPage
    signinBtn()
    {
       return cy.get('#nav-flyout-ya-signin .nav-action-inner')
-      
    }
    emailField()
    {
@@ -11,13 +10,13 @@ class SigninPage
    }
    continueBtn()
    {
-    return cy.get('.a-button-inner > #continue')
+    return cy.get('#continue')
    }
    passwordField()
    {
     return cy.get('#ap_password')
    }
-   SubmitBtn()
+   submitBtn()
    {
     return cy.get('#signInSubmit')
    }

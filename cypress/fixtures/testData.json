@@ -1,9 +1,9 @@
 {
     "Item": "television",
-    "AssertionSignUP": "#nav-link-accountList-nav-line-1",
-    "AssertionSearchProduct": ".a-color-state",
-    "AssertionSelectProduct": "#imgTagWrapperId",
-    "AssertionAddtoCart": "#nav-cart-count",
-    "AssertionProceedtoShipping": "h1[class='a-spacing-base']"
+    "assertionSignUP": "#nav-link-accountList-nav-line-1",
+    "assertionSearchProduct": ".a-color-state",
+    "assertionSelectProduct": "#imgTagWrapperId",
+    "assertionAddtoCart": "#nav-cart-count",
+    "assertionProceedtoShipping": "h2[class='a-spacing-none']"
 }
   

@@ -9,7 +9,6 @@
     "HeadTest": "npm run test -- --headed",
     "chromTest": "npm run test -- --browser chrome"
   },
- 
   "author": "",
   "license": "ISC",
   "devDependencies": {
